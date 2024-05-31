@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td, tr {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.view {
+    color: green;
+}
+
+.del {
+    color: crimson;
+}

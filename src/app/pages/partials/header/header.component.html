@@ -1,0 +1,31 @@
+<!--& HEADER -->
+<header class="header">
+    <a routerLink="/" class="logo">incident report</a>
+    <nav class="navbar">
+        
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" class="open"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+        
+        <label for="sidebar-active" id="overlay"></label>
+        
+        <ul class="nav-list">
+
+            <label for="sidebar-active">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32" class="close"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+            <li class="nav-item"><a routerLink="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a routerLink="/form" class="nav-link">Forms</a></li>
+            <li class="nav-item"><a routerLink="/contact" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a routerLink="/about" class="nav-link">About</a></li>
+            <li class="nav-item">
+                <button routerLink="/login" class="login lo-btn">Log In</button>
+            </li>
+
+            <li class="nav-item">
+                <button (click)="logout()" class="logout lo-btn">Log Out</button>
+            </li>
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,293 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    background: url('/assets/station.jpg');
+    /* background: url('/assets/hero-bg-1.png'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.cn {
+    color: #ffd096;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.rn {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.hero-btn {
+    border: none;
+    outline: none;
+    background-color: #1f8d94;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+/* xs */
+@media (width >= 475px) {
+    .cn {
+        font-size: 45px;
+    }
+    
+    .rn {
+        font-size: 25px;
+    }
+}
+
+/* sm */
+/* @media (width >= 640px) {} */
+
+/* md */
+/* @media (width >= 768px) {} */
+
+/* lg */
+@media (width >= 1024px) {
+    .cn {
+        font-size: 60px;
+    }
+    
+    .rn {
+        font-size: 40px;
+    }
+
+    .hero-btn {
+        font-size: 30px;
+        width: 200px;
+        height: 45px;
+    }
+}
+
+/* xl */
+@media (width >= 1280px) {
+    .cn {
+        font-size: 65px;
+    }
+    
+    .rn {
+        font-size: 45px;
+    }
+
+    .hero-btn {
+        font-size: 28px;
+        width: 150px;
+        height: 50px;
+    }
+}
+
+
+.short {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sh-heading {
+    text-transform: capitalize;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sh-sub {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.report-con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.report-con img {
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.sh-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+
+
+/* xs */
+/* @media (width >= 475px) {} */
+
+/* sm */
+@media (width >= 640px) {
+    .sh-heading {
+        font-size: 30px;
+    }
+    
+    .sh-sub {
+        font-size: 22px;
+    }
+    
+    /* .report-con {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+    
+    .report-con img {
+        width: 350px;
+    }
+    
+    .sh-title {
+        font-size: 25px;
+    }
+}
+
+/* md */
+/* @media (width >= 768px) {} */
+
+/* lg */
+@media (width >= 1024px) {
+    .sh-heading {
+        font-size: 60px;
+    }
+    
+    .sh-sub {
+        font-size: 40px;
+    }
+    
+    /* .report-con {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } */
+    
+    .report-con img {
+        width: 500px;
+    }
+    
+    .sh-title {
+        font-size: 25px;
+    }
+}
+
+/* xl */
+@media (width >= 1280px) {
+    .sh-heading {
+        font-size: 60px;
+    }
+    
+    .sh-sub {
+        font-size: 40px;
+    }
+    
+    .report-con {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .report-con img {
+        width: 400px;
+        margin-right: 5px;
+    }
+    
+    .sh-title {
+        font-size: 25px;
+    }
+}
+
+/* 2xl */
+@media (width >= 1536px) {
+    .sh-heading {
+        font-size: 60px;
+    }
+    
+    .sh-sub {
+        font-size: 40px;
+    }
+    
+    .report-con img {
+        width: 500px;
+        margin-right: 10px;
+    }
+    
+    .sh-title {
+        font-size: 25px;
+    }
+}
+
+/* buffer */
+/* @media (width >= 1700px) {} */
+/* desktop */
+@media (width >= 1900px) {
+    .sh-heading {
+        font-size: 60px;
+    }
+    
+    .sh-sub {
+        font-size: 40px;
+    }
+    
+    .report-con img {
+        width: 600px;
+        margin-right: 10px;
+    }
+    
+    .sh-title {
+        font-size: 25px;
+    }
+}
+
+.footer {
+    width: 100%;
+    min-height: 100px;
+    background-color: #f0ecec;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer p {
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/* 2xl */
+/* @media (width >= 1536px) {} */
+
+/* buffer */
+/* @media (width >= 1700px) {} */
+/* desktop */
+/* @media (width >= 1900px) {} */

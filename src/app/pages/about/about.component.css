@@ -1,0 +1,107 @@
+.about {
+    width: 100%;
+    min-height: 100dvh;
+    font-family: "Inter", sans-serif;
+}
+
+.abt-head {
+    width: 100%;
+    height: 40vh;
+    background-color: #FFD096;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-title {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.abt-para-con {
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-para-con p {
+    font-size: 20px;
+}
+
+
+/* xs */
+@media (width >= 475px) {
+    
+    .abt-title {
+        font-size: 35px;
+    }
+    
+    .abt-para-con p {
+        font-size: 25px;
+    }
+}
+
+/* sm */
+@media (width >= 640px) {
+    .abt-title {
+        font-size: 37px;
+    }
+    
+    .abt-para-con p {
+        font-size: 27px;
+    }
+}
+
+/* md */
+@media (width >= 768px) {
+    .abt-title {
+        font-size: 40px;
+    }
+    
+    .abt-para-con p {
+        font-size: 30px;
+    }
+}
+
+/* lg */
+@media (width >= 1024px) {
+    .abt-title {
+        font-size: 50px;
+    }
+    
+    .abt-para-con p {
+        font-size: 30px;
+    }
+}
+
+/* xl */
+@media (width >= 1280px) {
+    .abt-title {
+        font-size: 60px;
+    }
+    
+    .abt-para-con p {
+        font-size: 30px;
+    }
+}
+
+/* 2xl */
+@media (width >= 1536px) {
+    .abt-title {
+        font-size: 70px;
+    }
+    
+    .abt-para-con p {
+        font-size: 35px;
+    }
+}
+
+/* buffer */
+/* @media (width >= 1700px) {} */
+
+/* desktop */
+/* @media (width >= 1900px) {} */

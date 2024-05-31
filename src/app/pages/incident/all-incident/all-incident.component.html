@@ -1,0 +1,26 @@
+<div class="container">
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Incident Date</th>
+            <th>Incident Location</th>
+            <th>Incident Description</th>
+            <th>Witness</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let report of reportsArry">
+                <td>{{report['reported_by']}}</td>
+                <td>{{report['reportee_contact']}}</td>
+                <td>{{report['incident_date'] | date}}</td>
+                <td>{{report['location']}}</td>
+                <td>{{report['incident_description']}}</td>
+                <td>{{report['witnesses']}}</td>
+                <td class="act">
+                    <a routerLink="/view-report/{{report['id']}}" class="view">VIEW</a>  <a routerLink="" class="del">DELETE</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,97 @@
+<div class="container">
+    <!-- <button class="gen-btn">View Report</button> -->
+
+    <!-- <table id="reportData">
+        
+        <caption>
+            <h5 class="title">Incident Report</h5>
+            <h5 class="report-header">Incident Detail Report</h5>
+        </caption>
+
+        <thead>
+            <th>Report ID</th>
+            <th>Reported By</th>
+            <th>Reportee Contact</th>
+            <th>Reportee Address</th>
+            <th>Incident Type</th>
+            <th>Incident Date</th>
+            <th>Incident Location</th>
+            <th>Incident Description</th>
+            <th>Witnesses</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="re-id"> Report ID: {{reports['id']}}</td>
+                <td> Reported By: {{reports['reported_by']}}</td>
+                <td>{{reports['reportee_contact']}}</td>
+                <td>{{reports['reportee_address']}}</td>
+                <td>{{reports['incident_type']}}</td>
+                <td>{{reports['incident_date'] | date}}</td>
+                <td>{{reports['location']}}</td>
+                <td>{{reports['incident_description']}}</td>
+                <td>{{reports['witnesses']}}</td>
+            </tr>
+        </tbody>
+    </table> -->
+    
+    <table id="reportData">
+        
+        <caption>
+            <h5 class="title">Incident Report</h5>
+            <h5 class="report-header">Incident Detail Report</h5>
+        </caption>
+
+        <!-- <thead>
+            <th>Report ID</th>
+            
+        </thead> -->
+        <tbody>
+            <tr>
+                <th>Report ID</th>
+                <td class="re-id">{{reports['id']}}</td>
+            </tr>
+            <tr>  
+                <th>Reported By</th>
+                <td>{{reports['reported_by']}}</td>
+            </tr>
+            <tr>
+                <th>Reportee Contact</th>
+                <td>{{reports['reportee_contact']}}</td>
+            </tr>
+            <tr>
+                <th>Reportee Address</th>
+                <td>{{reports['reportee_address']}}</td>
+            </tr>
+            <tr>
+                <th>Incident Type</th>
+                <td>{{reports['incident_type']}}</td>
+            </tr>
+            <tr>
+                <th>Incident Date</th>
+                <td>{{reports['incident_date'] | date}}</td>
+            </tr>
+            <tr>
+                <th>Incident Location</th>
+                <td>{{reports['location']}}</td>
+            </tr>
+            <tr>
+                <th>Incident Description</th>
+                <td>{{reports['incident_description']}}</td>
+            </tr>
+            <tr>
+                <th>Witnesses</th>
+                <td>{{reports['witnesses']}}</td>
+            </tr>
+            <tr class="btn-row">
+                <button class="btn" (click)="generatePdf()">Generate Report</button>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+<!-- <ng-template #noData>
+    <div style="padding-top: 5px; text-align: center;" >
+        <h1 style="font-weight: bold;">No Records Found</h1>
+    </div>
+</ng-template> -->
+

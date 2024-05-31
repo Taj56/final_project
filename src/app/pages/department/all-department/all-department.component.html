@@ -1,0 +1,22 @@
+<div class="container">
+    <table>
+        <thead>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Incident Date</th>
+            <th>Incident Location</th>
+            <th>Incident Description</th>
+            <th>Witness</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let department of departmentArry">
+                <td>{{department['department_name']}}</td>
+                <td>{{department['police']}}</td>
+                <td>
+                    <a routerLink="" class="view">VIEW</a> | <a routerLink="" class="del">DELETE</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

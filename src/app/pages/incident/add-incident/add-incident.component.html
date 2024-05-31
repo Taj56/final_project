@@ -1,0 +1,37 @@
+<div class="container">
+
+    <form action="" (ngSubmit)="addReport(incidentForm)" #incidentForm="ngForm" id="reportData">
+
+        <h2 class="title">Incident Report</h2>
+
+        <label for="reported_by">Name</label>
+        <input type="text" name="reported_by" id="reported_by" placeholder="Your name" ngModel>
+
+        <label for="reportee_contact">Contact</label>
+        <input type="text" name="reportee_contact" id="reportee_contact" placeholder="Your Contact Here" ngModel>
+        
+        <label for="incident_type">Incident Type</label>
+        <input type="text" name="incident_type" id="incident_type" placeholder="Incident Type" ngModel>
+
+        <label for="reportee_address">Address</label>
+        <textarea name="reportee_address" id="reportee_address" class="adrs" placeholder="Address" ngModel></textarea> 
+        
+        <label for="incident_date">Incident Date</label>
+        <input type="date" name="incident_date" id="incident_date" ngModel>
+        
+        <label for="location">Location</label>
+        <input type="text" name="location" placeholder="Location" ngModel>
+
+        <label for="incident_description">Description</label>
+        <textarea name="incident_description" id="incident_description" class="adrs" placeholder="Incident Description" ngModel></textarea>
+
+        <label for="witnesses">Witness</label>
+        <input type="text" name="witnesses" placeholder="Witnesses" ngModel>
+
+        <button type="submit">Make Report</button>
+        <!-- <button>Generate</button> -->
+
+
+    </form>
+
+</div>
