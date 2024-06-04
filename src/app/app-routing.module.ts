@@ -12,6 +12,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { FormComponent } from './pages/form/form.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
+import { DeleteIncidentComponent } from './pages/incident/delete-incident/delete-incident.component';
 
 const routes: Routes = [
 
@@ -25,6 +26,7 @@ const routes: Routes = [
   {path: 'add-report', title: 'Add Incident', component: AddIncidentComponent},
   {path: 'view-report/:id', title: 'View Incident', component: ViewReportComponent},
   {path: 'view-incident/:id', title: 'View Report', component: ViewIncidentComponent},
+  {path: 'delete-report/:id', title: 'Delete Report', component: DeleteIncidentComponent},
 
   // department
   {path: 'department', title: 'Department', component: AllDepartmentComponent},

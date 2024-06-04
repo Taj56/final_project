@@ -10,6 +10,20 @@
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+
+.title span {
+    font-size: 120px;
 }
 
 .info {
@@ -22,7 +36,7 @@
 }
 
 .box {
-    background-color: aliceblue;
+    background-color: #FAB188;
     border-radius: 10px;
     width: 200px;
     height: 200px;
@@ -37,7 +51,7 @@
 }
 
 .box svg {
-    fill: #FAB188;
+    fill: #fff;
     width: 50px;
     height: 50px;
     margin-top: 10px;
@@ -55,7 +69,7 @@
 
 .map-con {
     width: 100%;
-    min-height: 100dvh;
+    min-height: 50dvh;
 }
 
 .map {

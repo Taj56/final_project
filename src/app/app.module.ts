@@ -19,6 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { FormComponent } from './pages/form/form.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { AboutComponent } from './pages/about/about.component';
+import { FooterComponent } from './pages/partials/footer/footer.component';
+import { DeleteIncidentComponent } from './pages/incident/delete-incident/delete-incident.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +36,9 @@ import { AboutComponent } from './pages/about/about.component';
     HomeComponent,
     FormComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    FooterComponent,
+    DeleteIncidentComponent
   ],
   imports: [
     BrowserModule,

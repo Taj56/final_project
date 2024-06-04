@@ -1,0 +1,188 @@
+.footer {
+    width: 100%;
+    min-height: 50dvh;
+    background-color: #FAB188;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    margin-bottom: 20px;
+    
+}
+
+.contact a {
+    color: #000;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.contact p {
+    display: flex;
+    flex-direction: column;
+}
+
+.info h3 {
+    text-transform: capitalize;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-left: -125px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    color: #000;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+
+.sec {
+    width: 100%;
+    height: 40px;
+    background-color: #ad6104;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.sec a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/* xs */
+/* @media (width >= 475px) {} */
+
+/* sm */
+@media (width >= 640px) {
+    .logo {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .info a {
+        font-size: 20px;
+    }
+    
+    
+    .contact a {
+        margin-bottom: 5px;
+    }
+    
+    .info h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    .links {
+        margin-left: -160px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+/* md */
+@media (width >= 768px) {
+    .logo {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .info {
+        flex-direction: row;
+    }
+
+    .info a {
+        font-size: 20px;
+    }
+
+    .contact {
+        margin-right: 40px;
+    }
+    
+    
+    .contact a, .links a {
+        margin-bottom: 10px;
+    }
+    
+    .info h3 {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    
+    .links {
+        margin-left: initial;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* lg */
+@media (width >= 1024px) {
+    .logo {
+        font-size: 50px;
+    }
+
+    .info a {
+        font-size: 23px;
+    }
+
+    .contact {
+        margin-right: 40px;
+    }
+    
+    
+    .contact a {
+        margin-bottom: 5px;
+    }
+    
+    .info h3 {
+        font-size: 37px;
+        margin-bottom: 10px;
+    }
+}
+
+/* xl */
+@media (width >= 1280px) {
+    .contact {
+        margin-right: 400px;
+    }
+}
+
+/* 2xl */
+/* @media (width >= 1536px) {} */
+
+/* buffer */
+/* @media (width >= 1700px) {} */
+/* desktop */
+/* @media (width >= 1900px) {} */

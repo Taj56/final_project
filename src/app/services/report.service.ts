@@ -10,7 +10,7 @@ import { map } from 'rxjs/operators';
 })
 export class ReportService {
 
-  private API_URL = environment.api_url + '/api/v1/report'
+  private API_URL = environment.api_url + '/api/v1/report';
 
   constructor(private _http: HttpClient) { }
 
