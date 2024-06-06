@@ -22,7 +22,7 @@ const routes: Routes = [
   {path: 'about', title: 'About Us', component: AboutComponent},
 
   // reports
-  {path: 'all-reports', title: 'All Reports', component: AllIncidentComponent, },
+  {path: 'all-reports', title: 'All Reports', component: AllIncidentComponent, canActivate: [AuthGuard]},
   {path: 'add-report', title: 'Add Incident', component: AddIncidentComponent},
   {path: 'view-report/:id', title: 'View Incident', component: ViewReportComponent},
   {path: 'view-incident/:id', title: 'View Report', component: ViewIncidentComponent},
